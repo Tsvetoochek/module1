@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["undici-types"],
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+  },
+  "include": [
+    "./**/*.ts", 
+    "./**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
